@@ -1,0 +1,252 @@
+
+body {
+    text-align: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color:dimgray;
+    margin:0;
+    
+        
+}
+
+
+body a:hover{
+    color: black;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+h4{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+button {
+    background-color: dimgrey; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 16px;
+    transition: 0.4s;
+    margin-top: 15px;
+    font-family: Montserrat;
+    margin-bottom: 15px;
+}
+
+button:hover{
+    background-color: black;
+    color: dimgrey;
+}
+
+button a{
+    color: white;
+}
+
+button a:hover{
+    color:white;
+}
+
+
+
+/* NAGIVATION BAR*/
+.nav-bar{
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.nav-contents{
+    
+    display: block;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    width:1220px;
+    justify-content: center;
+    align-items:center;
+    height: 50px;
+    top: 0px;
+    overflow: hidden;
+    
+}
+
+.link-container {
+    display:flex;
+    float: left;
+    gap: 10px;
+    padding-top: 15px;
+
+}
+
+/* LINK BITS*/
+
+a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.link-container a:hover {
+    color: white; 
+}
+
+
+.flag-container {
+    display: flex;
+    float: right;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-top:15px;   
+}
+
+.flag {
+    height: 20px;
+    width: 30px;  
+    transition: 0.2s;
+    -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        
+}
+
+.flag:hover {
+    width: 35px;
+    height: 25px;
+
+}
+/*NAVIGATION END*/
+
+
+.everything-container{
+    width: 1220px;
+    display: inline-block;
+    justify-content: center;
+    align-content:center;
+    background-color: white;
+}
+
+.top-section-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:15px;
+    padding: 0px 200px 0px 200px;
+}
+
+.profile-photo{
+    width: auto;
+    height:400px;
+}
+.worked-with-container{
+   
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    /*align-content: flex-start;*/
+    background-color: white;
+    width: 800px;
+}
+
+.worked-with-container img {
+    max-height: 50px;
+    width: 150px;
+    padding: 15px;
+    transition: 0.2s;
+    
+
+}
+
+.all-logos{
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    display: block;
+    gap: 25px;
+    padding: 0px 100px 100px 100px;
+}
+
+.all-logos img {
+    max-width: 150px;
+    max-height: 80px;
+    padding: 15px 5px 15px 5px;
+    align-items: center;
+    justify-content: center;
+
+    
+
+}
+
+.about-me {
+    
+    width: 75%;
+  
+    margin-left: 20px;
+    
+    }
+
+.about-me-text{
+    width:60%;
+    justify-content: center;
+    text-align:justify;
+}
+
+.left-right-container{
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+
+.left-side {
+    
+    width: 700px;
+
+}
+
+.right-side {
+   
+    width: 700px;
+}
+
+.third-side {
+    width: 700px;
+}
+
+.worked-with-container img:hover{
+    height: auto;
+    width: 160px;
+    
+}
+
+/*LANGUAGE BARS*/
+progress {
+    float: left;
+    color: dimgray;
+   
+}
+
+.languages p {
+    float: left;
+    margin-left: 10px;
+  
+}
